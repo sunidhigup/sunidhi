@@ -29,7 +29,7 @@ namespace MyFirstWebApp.Controllers
         }
         public IActionResult About()
         {
-            return View(new Information { Name = "Sunidhi",Designation= "Engineer" , Company_name = "Nagarro",Domain="Devops"});
+            return View(new Information { Name = "Vinayak Krishna",Designation= "Engineer" ,Domain="Git"});
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
